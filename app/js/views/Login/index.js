@@ -21,8 +21,6 @@ class Login extends Component {
     componentWillReceiveProps = (nextProps) => {
         const { user } = nextProps;
 
-        debugger
-
         this.setState({ isLoading: false });
 
         if(user && user.isAuthenticated) {

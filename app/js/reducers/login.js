@@ -15,7 +15,6 @@ export default (state = initialState, action) => {
             };
 
         case 'FETCH_LOGIN_ERROR':
-            debugger
             return {
                 ...state,
                 isAuthenticated: action.isAuthenticated,
