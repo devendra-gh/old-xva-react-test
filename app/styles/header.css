@@ -1,0 +1,11 @@
+header {
+    padding: 15px 15px;
+    background-color: rgba(0,0,0,0.5)
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    color: #ffffff;
+    font-size: 20px;
+}
